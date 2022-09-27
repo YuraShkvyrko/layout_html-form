@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,MACE,aAAc,CACd,mBACF,CAEA,0BACE,kBAAmB,CACnB,gBACF","file":"style.f36f51b6.css","sourceRoot":"..\\src","sourcesContent":["label {\n  display: block;\n  padding-bottom: 10px;\n}\n\nfieldset:not(:last-child) {\n  margin-bottom: 20px;\n  padding-bottom: 0;\n}\n"]}
