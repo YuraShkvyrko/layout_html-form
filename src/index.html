@@ -12,7 +12,7 @@
   </head>
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      <fieldset class="form-fieldset">
+      <fieldset class="form-fieldset legend">
         <legend>Personal information</legend>
         <label class="form-field">
           Surname:
@@ -53,7 +53,7 @@
         </label>
       </fieldset> <!--Personal info-->
 
-      <fieldset class="form-fieldset">
+      <fieldset class="form-fieldset legend">
         <legend>Registration</legend>
         <label class="form-field">
           E-mail:
@@ -70,12 +70,22 @@
         </label>
       </fieldset> <!--Registration-->
 
-      <fieldset class="form-fieldset">
+      <fieldset class="form-fieldset legend">
         <legend>An interesting fact about you!</legend>
         <label class="form-field">
           Do you love cats?
-          <input type="radio" name="answer"> Yes
-          <input type="radio" name="answer"> No
+          <input
+            type="radio"
+            name="answer"
+            value="0"
+          >
+          Yes
+          <input
+            type="radio"
+            name="answer"
+            value="0"
+          >
+          No
         </label>
 
         <label class="form-field">
@@ -109,7 +119,7 @@
         </label>
       </fieldset> <!--fact about you-->
 
-      <fieldset class="form-fieldset">
+      <fieldset class="form-fieldset legend">
         <legend>Additional info:</legend>
         <label class="form-field">
           Comments:
@@ -125,7 +135,7 @@
         </label>
       </fieldset> <!--Additional info-->
 
-      <button type="submit" name="Submit">Submit</button>
+      <button type="submit" name="submit">Submit</button>
     </form>
   </body>
 </html>
